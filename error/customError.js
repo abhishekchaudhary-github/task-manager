@@ -9,4 +9,4 @@ const customError1   = (message,status) => {
     return new customError(message,status)
 }
 
-module.exports = {customError1}
+module.exports = {customError1,customError}
